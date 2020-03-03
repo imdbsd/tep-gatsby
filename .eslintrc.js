@@ -3,7 +3,14 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['standard', 'plugin:react/recommended'],
+  extends: [
+    'standard',
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier/@typescript-eslint',
+    'plugin:prettier/recommended',
+  ],
   settings: {
     react: {
       version: 'detect',
@@ -34,6 +41,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-var-requires': 'off', //
       },
+      
     },
   ],
 }
