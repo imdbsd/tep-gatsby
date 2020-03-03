@@ -51,7 +51,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+    "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
     "lint:fix": "yarn lint --fix"
   },
   "repository": {
