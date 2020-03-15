@@ -22,7 +22,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "@storybook/react": "^5.3.14",
+    "@storybook/preset-typescript": "^2.1.0",
+    "@storybook/react": "^5.3.17",
     "@types/react-helmet": "^5.0.15",
     "@types/styled-components": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
@@ -39,7 +40,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-standard": "^4.0.1",
+    "fork-ts-checker-webpack-plugin": "^4.1.0",
     "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.8.3"
   },
   "keywords": [
