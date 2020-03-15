@@ -1,4 +1,5 @@
 import React from 'react'
+import Text from '../../src/uikits/Text'
 
 export default { title: 'Text' }
 
@@ -17,7 +18,7 @@ export const defaultText = () => {
       }}
     >
       <div style={{ width: '100%' }}>
-        <p>halo</p>
+        <Text>halo</Text>
       </div>
     </div>
   )
