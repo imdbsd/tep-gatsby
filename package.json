@@ -21,10 +21,14 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@storybook/preset-typescript": "^2.1.0",
+    "@storybook/react": "^5.3.17",
     "@types/react-helmet": "^5.0.15",
     "@types/styled-components": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
+    "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.7",
     "babel-preset-gatsby": "^0.2.29",
     "eslint": "^6.8.0",
@@ -36,7 +40,9 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-standard": "^4.0.1",
+    "fork-ts-checker-webpack-plugin": "^4.1.0",
     "prettier": "^1.19.1",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.8.3"
   },
   "keywords": [
@@ -52,7 +58,8 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "lint": "eslint . --ext ts --ext tsx --ext js --ext jsx",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "storybook": "start-storybook -c ./storybook/.storybook/ -p 9001"
   },
   "repository": {
     "type": "git",
